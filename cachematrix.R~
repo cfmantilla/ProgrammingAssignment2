@@ -5,7 +5,7 @@
 
 
 ## This function returns a list of functions (set,get,getsolved,getsolved),
-## as a side effect it updates the called variable in the parent environment 
+## as a side effect it updates the variable x in the parent environment 
 ## when functions set or setsolved are used
 makeCacheMatrix <- function(x = matrix()) {
   solved <- NULL
